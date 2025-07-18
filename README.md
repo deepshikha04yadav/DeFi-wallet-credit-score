@@ -18,7 +18,7 @@ The goal is to distinguish responsible users from risky or bot-like actors using
 ---
 
 ## ⚙️ Architecture & Processing Flow
-
+```bash
   ┌────────────────────────────┐
   │ Raw JSON (user-transactions)│
   └────────────┬───────────────┘
@@ -30,7 +30,7 @@ The goal is to distinguish responsible users from risky or bot-like actors using
  [3] Score wallets with IsolationForest (risk → score)
                ▼
  [4] Output: scores.csv (walletAddress, credit_score)
-
+```
 
 ---
 
