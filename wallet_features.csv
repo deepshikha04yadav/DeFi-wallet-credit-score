@@ -1,0 +1,2 @@
+wallet,total_tx,active_days,deposit_count,borrow_count,repay_count,redeem_count,liquidation_count,repay_ratio,liquidation_ratio,borrow_to_deposit
+,100000,155,37808,17086,12553,32305,248,1.0,0.00248,0.0
