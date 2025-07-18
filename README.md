@@ -59,25 +59,26 @@ Each wallet is represented by behavior-based features such as:
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 ### 🏁 One-Step Scoring
-
+```bash
 python score_wallets.py --input data/user-wallet-transactions.json --output outputs/scores.csv
-
+```
 
   --input: path to the raw JSON file
 
   --output: path to output credit scores CSV
 
-📊 Analysis
+## 📊 Analysis
 See analysis.md for:
 
   Credit score distribution
   Common traits of high- and low-scoring wallets
   Statistical summaries
 
-📁 Repository Structure
+## 📁 Repository Structure
+```bash
 aave-wallet-credit-scoring/
 ├── data/  
 │   └── user-wallet-transactions.json                       # Input JSON
@@ -93,13 +94,13 @@ aave-wallet-credit-scoring/
 ├── analysis.md
 ├── README.md
 └── requirements.txt
-
-📌 Future Work
+```
+## 📌 Future Work
 Incorporate time-weighted features
 
 Label-based (supervised) scoring if loan defaults become observable
 
 Include flash loan patterns or MEV detections
 
-🧑‍💻 Author
+## 🧑‍💻 Author
 This project was built as a proof of concept for credit scoring in decentralized finance using purely behavioral on-chain data.
