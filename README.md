@@ -20,7 +20,7 @@ The goal is to distinguish responsible users from risky or bot-like actors using
 ## ⚙️ Architecture & Processing Flow
 ```bash
   ┌────────────────────────────┐
-  │ Raw JSON (user-transactions)│
+  │Raw JSON (user-transactions)│
   └────────────┬───────────────┘
                ▼
  [1] Extract features per wallet (feature_engineering.py)
